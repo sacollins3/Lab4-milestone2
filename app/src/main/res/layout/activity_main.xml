@@ -96,12 +96,14 @@
         android:id="@+id/location101Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
         android:text="Location 101:"
         android:textColor="#FFFFFF"
         android:textSize="50sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="47dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
